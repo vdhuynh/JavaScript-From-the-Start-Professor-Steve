@@ -1,0 +1,22 @@
+// tell the computer to remember something
+// DECLARING AND ASSIGNING
+// declare var
+// Steve: assignment
+
+var name = "Steve"; // string data type
+var id = 234234; // number data type
+var alive = true; // boolean data type
+var xyz; // declare xyz
+
+// Overwriting assigning new values
+
+alive = false; // replacing true with false
+id = 7; // replacing id with 7
+name = "John";
+xyz = null; // xyz holds nothing, but we have created the xyz "box"
+
+console.log(name); // method with console object
+console.log(id);
+console.log(alive);
+
+
