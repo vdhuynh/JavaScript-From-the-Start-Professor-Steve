@@ -1,0 +1,43 @@
+// Binary Logical Operators
+// And &&
+// OR ||
+// creating compound if statements
+
+let ingredients = ['lettuce', 'cheddar', 'ham'];
+
+let sandwichHas = function(ingredient) // function keyword to declare function; assigned to sandwichHas
+{
+    for(let i of ingredients){
+        if(i == ingredient){
+            return true;
+        }
+    }
+    return false;
+}
+    //if the return line is omitted, it returns undefined, which is also a falsey value
+
+if(sandwichHas('cheddar')){
+    console.log('Sandwich has cheese');
+}else{
+    console.log('NO CHEESE');
+}
+
+if(sandwichHas('ham') || sandwichHas('chicken') || sandwichHas('beef')){
+    console.log('Sandwich has meat');
+}else{
+    console.log('No meat');
+}
+
+if(sandwichHas('lettuce') && sandwichHas('tomato')){
+    console.log('Sandwich has both');
+}else{
+    console.log('Not both but maybe one of them');
+}
+
+if((sandwichHas('cheddar') && sandwichHas('lettuce')) || sandwichHas('onion')){
+    console.log('cheese and lettuce . . . OR onion'); //AND + OR operator
+}else{
+    console.log('failed final test');
+}
+
+//add parentheses for clarity
