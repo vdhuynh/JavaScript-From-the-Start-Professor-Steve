@@ -1,0 +1,31 @@
+var firstName = "Ricky";
+var lastName = "Bobby";
+var age = 45;
+var first = true;
+var last = false;
+var bob;
+
+//Falsey types: false, null, undefined, 0, "", '', Nan
+
+if(age < 40){
+    //run if value of age is less than or equal to 40
+}else if((age > 40) && (age < 50)){
+    //if age is greater than 40
+    //&& AND (combining operator)
+    //|| OR (combining operator)
+    //use parentheses for better readability
+}else if(age < 0){
+    //otherwise prevent something from happening
+}
+else{
+    //otherwise
+}
+
+//can have as many else if as we want
+
+//comparison operators
+// < <= > >= == != !
+
+if(!first){ //not operator
+    
+}
