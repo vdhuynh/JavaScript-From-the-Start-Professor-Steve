@@ -1,0 +1,18 @@
+var firstName = "Ricky";
+var lastName = "Bobby";
+var age = 45;
+var first = true;
+var last = false;
+var bob;
+
+// Falsey types: false, null, undefined, 0, "", '', Nan
+
+if(last){
+    // won't run because falsey
+}
+
+if(age == 45){
+    // do something if true
+}else{
+    // do something if false 
+}
