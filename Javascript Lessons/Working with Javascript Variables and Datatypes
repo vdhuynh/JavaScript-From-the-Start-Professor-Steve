@@ -1,0 +1,34 @@
+// tell the computer to remember something
+// DECLARING AND ASSIGNING
+// declare var
+// Steve: assignment
+
+var name = "Steve"; // string data type
+var id = 234234; // number data type
+var alive = true; // boolean data type
+var xyz; // declare xyz, undefined
+
+name = "Ricky";
+name = name + " Bobby"; // concatenation (combining multiple strings)
+
+console.log(name); // method with console object, concatenation applied
+
+id = 7 + 3; // reassigned, basic operations
+console.log(id);
+
+id = id - 2; // basic operations
+id = id * 4;
+id = id / 4;
+console.log(id);
+
+console.log(alive);
+
+fiveDs = ["Dodge", "Duck", "Dip", "Dive", "Dodge"]; // array, numbered list, compound data type (array/list)
+
+console.log(fiveDs[0] + fiveDs[2]); // index, bracket notation, concatenation
+
+// Object
+// Function
+// Date
+// DOM Object - Document Object Model, used with HTML 
+
