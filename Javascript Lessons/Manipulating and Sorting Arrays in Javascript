@@ -1,0 +1,37 @@
+/***
+0 - Luke
+1 - Leia
+2 - Han
+3 - Chewie
+***/
+var characters = ['Luke', 'Leia', 'Han', 'Chewie'];
+console.log(characters);
+
+characters.splice(0, 1, 'Rey'); // from index 0, replace 1 index length ('Luke'), replace with 'Rey'
+console.log(characters);
+
+characters.splice(1, 2, 'Kylo'); // from index 1, replace 2 indices length ('Leia', 'Han'), indices 1 and 2, replace with 'Kylo'
+console.log(characters);
+characters.splice(1, 1, 'C3P0', 'R2D2'); //replace index 1 with 2 items
+console.log(characters);
+characters.splice(1, 2); //remove items after index 1, leave 3 parameter blank
+console.log(characters);
+characters.push('BB8');
+characters.push('Obiwan');
+console.log(characters);
+characters.reverse(); //reverses order of list
+console.log(characters);
+characters.sort(); //sorts list in alphabetical order 
+console.log(characters);
+characters.sort().reverse(); //sort and then reverse
+console.log(characters);
+var position = characters.indexOf('Luke'); //finds index of 'Luke', which isn't in the array, so it will return -1
+console.log(position);
+position = characters.indexOf('Chewie'); //finds index of 'Chewie';
+console.log(position);
+position = characters.lastIndexOf('BB8'); //finds last index of 'BB8' if there is a duplicate of 'BB8'; indexOf would give first index of 'BB8 if there was a duplicate';
+console.log(position);
+
+//splice()
+//indexOf()
+//lastIndexOf()
