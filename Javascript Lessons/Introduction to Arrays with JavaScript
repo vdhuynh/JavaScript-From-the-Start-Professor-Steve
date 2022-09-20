@@ -1,0 +1,26 @@
+var characters = ['Luke', 'Leia', 'Han', 'Chewie'];
+console.log(characters);
+console.log(characters.length); //length
+console.log(characters[0]); //index (always 1 less than length)
+console.log(characters[characters.length-1]); //get last index
+characters.push('Anakin'); //add to array
+characters.push('Obiwan'); //add to array
+console.log(characters); //remove and store last index
+characters.pop(); //remove and store last index
+characters.pop();
+console.log(characters);
+characters.unshift('C3P0'); //add item at the beginning of the array
+characters.unshift('R2D2'); //add item at the beginning of the array
+console.log(characters); 
+characters.shift(); //remove first item at the array and return first item;
+characters.shift(); //remove first item at the array and return first item;
+console.log(characters);
+
+//push() (add item to the end)
+//pop() (remove and store last item)
+//unshift() (add item at the beginning)
+//shift() (remove first item and store it)
+
+
+
+
